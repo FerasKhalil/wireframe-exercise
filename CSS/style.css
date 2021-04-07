@@ -53,7 +53,8 @@ padding : 20px;
 {   float: right;
     height: 400px;
     width: 450px;
-    padding-top: 40px;  
+    padding-top: 40px;
+    overflow: scroll;  
 }
 #footering{
 	width:100%;
@@ -69,7 +70,11 @@ padding : 20px;
 } */
 button:hover
 {
+    background-color: brown;
+    color: chartreuse;
+}
+button
+{
     background-color: black;
     color: white;
-    
 }
